@@ -1,2 +1,42 @@
-Hola, este es el readme de mi proyecto de becalos!
-Este es el primer modulo de HTML! , en el cual solo hice una pagina sencilla, usando todas las etiquetas que aprendimos en la clase y utilizando git para subir el archivo index.html y crear el readme.md mediante terminal.
+# Project Web: My first portfolio and Clon Starbucks with CSS and HTML.
+
+Hola mi nombre es Dan! y este es mi proyecto de Becalos. Un proyecto donde estuve en un bootcamp de 2 meses de desarrollo Frontend, donde aprendi las bases de HTML y CSS donde aprendi muchisimo, pude crear mi propia pagina web y ahi anide un clon sencillo que hice de starbucks. Me faltaron detalles pero ya que hice 2 paginas, siento que aprendi mucho.
+
+## How to test my code
+
+1. **Requirements:**
+* A web browser (Chrome, Firefox, Safari, etc.).
+* (Optional, but recommended) A code editor to view the source code (VS Code, Sublime Text, etc.).
+
+2. **Steps:**
+* **Clone the Repository (if you don't have the files):** If you got this code from a repository (e.g. GitHub), clone it to your local machine using the following command in your terminal:
+```bash
+git clone [Repository URL]
+```
+* Replace `[Repository URL]` with the URL of your project's repository.
+* **Navigate to the project directory:** Once cloned (or if you already have the folder), navigate to the root directory of your project from the terminal, use the command `cd <folder name>`.
+```bash
+cd [your project folder name]
+```
+* Replace `[your project folder name]` with the actual name of your project folder.
+* **Opening the `index.html` file:** Open the `index.html` file directly in your preferred web browser.
+* You can do this in several ways:
+* **From the file explorer:** Find the `index.html` file in your file explorer and double-click it to open it with your default browser.
+* **From the terminal:** If your operating system is Linux or MacOS, run `open index.html`, if it is Windows, run `start index.html`.
+
+* **Exploring the page:** View the web page in your browser. Observe the layout, images, and behavior.
+
+3. **Notes:**
+* Make sure the folder and file structure is kept intact, meaning that `.html`, `.css`, and images are in the correct folders.
+* The main file is `index.html`.
+* Images are located in the `imagesStarbacks` folder (or whatever folder you use for images).
+* Styling is located in `style.css`.
+
+## Project Structure:
+[Starbucks&Portfolio]/
+├── index.html # Main HTML file
+├── style.css # CSS file for the style
+└── imagesStarbacks/ # Folder with the images
+├── images/ # Folder of images of my portfolio
+├── project-starbucs.html/# HTML of the starbucks clone
+└── stylestar.css/# the css of the starbucks clone
