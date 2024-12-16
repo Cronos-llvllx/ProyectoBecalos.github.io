@@ -212,7 +212,7 @@ footer {
         flex-direction: column;
     }
     .left-section, .right-section {
-      width: 100%;
+        width: 100%;
     }
     .second-content {
         flex-direction: column;
@@ -220,7 +220,7 @@ footer {
     .second-content div{
         width: 100%;
     }
-  .promo-container {
+.promo-container {
         flex-direction: column; /* Apila los recuadros en pantallas pequeñas */
     }
     .promo-card {
@@ -246,7 +246,7 @@ footer {
 }
 
 .promo-card-bg {
-    background-image: url('/imagesStarbacks/AzulC.png');
+    background-image: url('imagesStarbacks/AzulC.png');
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -267,7 +267,7 @@ footer {
 }
 
 .promo-card-bg-2 {
-    background-image: url('/imagesStarbacks/rojaC.png');
+    background-image: url('imagesStarbacks/rojaC.png');
     background-size: cover;
     background-position: center;
     height: 100%;

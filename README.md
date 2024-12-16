@@ -1,6 +1,6 @@
 # Project Web: My first portfolio and Clon Starbucks with CSS and HTML.
 
-Hola mi nombre es Dan! y este es mi proyecto de Becalos. Un proyecto donde estuve en un bootcamp de 2 meses de desarrollo Frontend, donde aprendi las bases de HTML y CSS donde aprendi muchisimo, pude crear mi propia pagina web y ahi anide un clon sencillo que hice de starbucks. Me faltaron detalles pero ya que hice 2 paginas, siento que aprendi mucho.
+Hi, my name is Dan! and this is my Becalos project. A project where I was in a 2-month Frontend development bootcamp, where I learned the basics of HTML and CSS where I learned a lot, I was able to create my own website and there I nested a simple clone that I made of Starbucks. I missed some details but since I made 2 pages, I feel like I learned a lot.
 
 ## How to test my code
 
