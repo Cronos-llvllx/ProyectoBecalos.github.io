@@ -1,42 +1,148 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+    
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Esta sera mi landing page personal!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Portfolio Website</title>
 </head>
 <body>
-    <h1>Hola, me llamo Daniel Medina! :)</h1>
-    <p>Soy un Frontend Developer en proceso</p>
-    <h2>Me gusta mucho la programacion</h2>
-    <p>Estoy muy entusiasmado por el curso de becalos! , espero al finalizar pueda tener mi pagina personal como CV</p>
-    <h3>Este curso fue perfecto para mi </h3>
-    <p>Aplique porque mis areas favoritas son el desarrollo web y la inteligencia artificial.</p>
-    
-    <h4>Lenguajes de programacion</h4>
-    <section>
-        <p>Los lenguajes que me gustaria aprender seria Javascript y python!</p>
+    <header>
+        <a href="#" class="logo">DanDev</a>
+
+        <nav>
+            <a href="#home" class="active"> Home</a>
+            <a href="#experience" >Experience</a>
+            <a href="#projects" >Projects</a>
+            <a href="#contact" >Contact</a>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-img">
+            <img src="/images/1.jpg " alt="Esta es mi foto">
+        </div>
+        <div class="home-content">
+            <h1>Hi, It's <span>Dan</span></h1>
+            <h3 class="typing-text">I'm a <span></span></h3>
+            <p>Soy un profesional versátil con experiencia en desarrollo web, desarrollo de software, ingeniería DevOps e ingeniería de nube. Mi habilidad para integrar y aplicar conocimientos en estas áreas me permite ofrecer soluciones completas y eficientes, desde la creación de aplicaciones web hasta la implementación y gestión de infraestructuras en la nube.
+            </p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/hector-gomez-gdl/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/Cronos-llvllx" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#" title="Link a mi CV" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <a href="/images/DanGomez.pdf" download class="btn">Hire me</a>
+        </div>
+    </section>
+    <section class="experience" id="experience">
+        <div class="container-exp">
+            <h2>Experiencia Laboral</h2>
+            <div class="job">
+                <h3>AcerosMurillo</h3>
+                <h5>Software Analyst</h5>
+                <p>I provided technical support to computer equipment and software, solving incidents and optimizing. 
+                    hardware performance. 
+                    I installed and configured security cameras and structured cabling. 
+                    I administered networks with firewalls, ensuring the security and connectivity of the infrastructure. 
+                    I implemented and managed servers and cloud solutions based on Synology. 
+                    I administered enterprise software for ticket management, accounting modules, human resources </p>
+                    <div class="skills">
+                        <img src="/images/cloud-icon.png" alt="Cloud" />
+                        <img src="/images/excel-icon.png" alt="Excel" />
+                        <img src="/images/network-icon.png" alt="Networks" />
+                    </div>
+                <div class="job">
+                    <h3>Robert Bosch</h3>
+                    <h5>IT Support Internship </h5>
+                    <p>I managed the inventory of technology equipment, including computers, cell phones, and printers, 
+                        performing monthly reviews to ensure availability and optimal functioning of resources. 
+                        I streamlined inventory management processes using Excel and Python, which improved accuracy 
+                        and reduced administration time. 
+                        I managed ticketing software, reducing the backlog of tickets from 300 to 30 in 11 months by 
+                        implementing improvements in incident tracking and resolution. 
+                        I performed preventive and corrective maintenance of computer equipment, networks, routers and 
+                        switches and managed warranties, ensuring equipment was always operational. 
+                        Provided induction to new employees on the use of systems and equipment, improving their 
+                        integration and productivity from day one. </p>
+                        <div class="skills">
+                            <img src="/images/python-icon.png" alt="Python" />
+                            <img src="/images/excel-icon.png" alt="Excel" />
+                            <img src="/images/scrum-scrum.png" alt="Scrum" />
+                        </div>
+                    <div class="job">
+                        <h3>CUCEI</h3>
+                        <h5>Technical support and project management</h5>
+                        <p>Lab Technical Support: I provided technical support resolving hardware and software issues, 
+                            covering printers, routers, computers, laptops, 3D printers and cameras. I implemented efficient 
+                            solutions that improved team productivity. 
+                            Requirements Management and Event Support: I documented and gathered client requirements 
+                            during an IEEE event, managing the team and optimizing resources using WordPress to meet project 
+                            objectives efficiently. 
+                            Customer Service Process Optimization: I implemented process improvements in the customer 
+                            service department, resulting in reduced response time and improved customer ratings.</p>
+                            <div class="skills">
+                                <img src="/images/html-css-icon.png" alt="HTML&CSS" />
+                                <img src="/images/js-icon.png" alt="JavaScript" />
+                                <img src="/images/php-icon.png" alt="PHP" />
+                            </div>
+            </div>
+            
+
+        </div>
     </section>
 
-    <div>
-        <img src="/images/python.png"  width="200px" alt="Esta es una imagen de python"/>
-        <img src="/images/Javascript.png"  width="200px" alt="Esta es una imagen de Javascript"/>
+    <section class="projects" id="projects">
+        <div class="project-card">
+            <a href="proyecto-starbucks.html" target="_blank">
+                <img src="/images/Starbacks.png" alt="Project 1" width="200px" height="150px">
+            </a>
+            <h3>Starbacks</h3>
+            <p>Es un clon de starbucks para un proyecto de aprender Frontend con Becalos Tech Challenge.</p>
+        </div>
+        <div class="project-card">
+            <img src="/images/Maglia.png" alt="Project 2" width="200px" height="150px">
+            <h3>Maglia App</h3>
+            <p>Una pagina web de gimnasio donde te permite administrar socios, suscripciones con pasarela de pagos.</p>
+        </div>
+        <div class="project-card">
+            <img src="/images/ComingSoon.png" alt="Project 3" width="200px" height="200px">
+            <h3>FinanceApp</h3>
+            <p>Es una app para controlar tus finanzas personales de manera simple y segura.</p>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="containercontact">
+            <form action="action_page.php">
+        <label for="fname">Name</label>
+        <input type="text" id="fname" name="name" placeholder="Your name..">
+        
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        <input type="submit" value="Submit" class="btn">
+        
+            </form>
+        </div>
+    </section>
+    <footer class="footer">
+    <div class="contenedor-footer">
+        <h2>Redes Sociales</h2>
+        <ul class="social-icons">
+            <a href="https://www.linkedin.com/in/hector-gomez-gdl/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/Cronos-llvllx" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#" title="Link a mi CV" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        </ul>
     </div>
-
-    <h3>Te voy a ensenar un poco a como se usan las listas en html!</h3>
-
-    <ul>
-        <p>Unordered list</p>
-        <li>Item 3</li>
-        <li>Item 1</li>
-        <li>Item 2</li>
-    </ul>
-
-    <ol><p>Order list</p>
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li></ol>
-
-    <a href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank">Esta es la fuente donde aprendi etiquetas en html, te la recomiendo</a>
+    <div class="informacion-legal">
+        <p>&copy; 2024 Dan Gomez. Todos los derechos reservados.</p>
+    </div>
+    <div class="modal">
+        <a href="#" class="btn">Acepta nuestros términos y condiciones</a>
+    </div>
+</footer>
 </body>
 </html>

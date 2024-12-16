@@ -1,0 +1,301 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #202324;
+    color:black;
+}
+
+.container {
+    width: 90%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+/* Header */
+header {
+    padding: 10px 0;
+    color: black;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.logo{
+    width: 60px;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15px;
+}
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.location{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #fff;
+}
+.location-icon{
+    width: 20px;
+    filter: invert(1);
+}
+.button-header {
+    padding: 10px 15px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.button-header:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.button-unete {
+    background-color: #000;
+    color: #fff;
+}
+
+/* Main Content */
+main {
+    padding: 20px 0;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.card {
+    display: flex;
+    background-color: rgba(24,46,40,255);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    color: white;
+    
+}
+.card1 {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: rgba(0,54,144,255);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    color: white;
+    
+}
+.card2 {
+    display: flex;
+    background-color: rgba(170,0,40,255);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    color: white;
+    
+}
+.card3 {
+    display: flex;
+    background-color: rgba(24,46,40,255);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    color: white;
+    flex-direction: row-reverse;
+    
+}
+.card4 {
+    display: flex;
+    background-color: rgba(170,0,40,255);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    color: white;
+    
+}
+.card5 {
+    display: flex;
+    background-color: rgba(24,46,40,255);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    
+    
+}
+.left-section {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.right-section {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;;
+}
+.right-section, .left-section h1{
+    font-size: 2.2em;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    text-align: center;
+}
+.left-section img, .right-section img {
+    width: 100%;
+    display: block;
+}
+
+/* Footer */
+footer {
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-links {
+    display: flex;
+    gap: 40px;
+}
+.footer-links div {
+    display: flex;
+    flex-direction: column;
+}
+.footer-links div p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.footer-links div a{
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 20px;
+}
+.social-icons img{
+    width: 30px;
+    filter: invert(1);
+}
+/* Responsive */
+@media (max-width: 768px) {
+    .card, .card1, .card2, .card3, .card4, .card5{
+        flex-direction: column;
+    }
+    .left-section, .right-section {
+      width: 100%;
+    }
+    .second-content {
+        flex-direction: column;
+    }
+    .second-content div{
+        width: 100%;
+    }
+  .promo-container {
+        flex-direction: column; /* Apila los recuadros en pantallas pequeñas */
+    }
+    .promo-card {
+        width: 100%; /* Ocupa todo el ancho */
+    }
+    
+}
+
+.promo-container {
+    display: flex;
+    gap: 20px; /* Espacio entre los recuadros */
+    padding: 20px 0; /* Espacio superior e inferior */
+    justify-content: center;
+    
+    
+}
+
+.promo-card {
+    width: 40%;
+    height: 700px;
+    position: relative; /* Para posicionar los elementos internos */
+    overflow: hidden; /* Para que no se desborden los bordes redondeados */
+}
+
+.promo-card-bg {
+    background-image: url('/imagesStarbacks/AzulC.png');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1; /* Mantener el fondo detrás del texto */
+}
+
+.promo-card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+    z-index: 2; /* Mantener el texto encima del fondo */
+}
+
+.promo-card-bg-2 {
+    background-image: url('/imagesStarbacks/rojaC.png');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.promo-card-content h2 {
+    font-size: 2.2em;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 500px;
+    margin-top: 0px;
+}
+.promo-card-content p{
+    color: #fff;
+    margin-bottom: 20px;
+    line-height: 1.5em;
+}
+
+.promo-card-content button {
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    border-radius: 25px;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+}
