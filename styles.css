@@ -9,9 +9,11 @@
     outline: none;
     font-family: 'Poppins', sans-serif;
     background-color: black;
+    
 }
 html{
     font-size: 62.5%;
+    background-color: black;
     /*scroll-behavior: smooth; no funciono :(*/ 
 }
 
@@ -102,18 +104,21 @@ section{
     padding: 5rem 9% 5rem;
 }
 
+
 .home{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 8rem;
-    background-color: black;
+    
+    
 }
 
 .home .home-content h1{
     font-size: 6rem;
     font-weight: 700;
     line-height: 1.3;
+    
 }
 
 span{
@@ -295,6 +300,7 @@ span{
     
     padding: 20px 0;
     text-align: center;
+    
 }
     .contenedor-footer {
         max-width: 800px;
@@ -340,7 +346,6 @@ span{
     }
 
     .modal {
-
         position: fixed;
         top: 90%;
         left: 90%;
@@ -350,10 +355,11 @@ span{
 }
 
     .experience {
-        max-width: 60%; /* Limita el ancho al 60% */
+        max-width: 100%; /* Limita el ancho al 60% */
         margin: 0 auto; /* Centra horizontalmente */
         padding: 20px;
         color: #fff;
+        background-color: black;
     }
     
     .job {
@@ -428,6 +434,7 @@ input[type=submit]:hover {
     padding: 2rem;
     flex-wrap: wrap; /* Para que sean responsivos y se ajusten en pantallas pequeñas */
     text-align: center;
+    
 }
 
 .project-card { /* Color de fondo del recuadro */
